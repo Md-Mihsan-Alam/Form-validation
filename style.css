@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(168, 171, 168);
+}
+
+.main {
+  margin: auto;
+  margin-top: 250px;
+  padding: 50px;
+  height: 300px;
+  width: 300px;
+  background-color: rgb(20, 100, 78);
+}
+.main form {
+  color: white;
+  font-size: 20px;
+}
+.main input {
+  margin-top: 10px;
+  height: 40px;
+  width: 300px;
+  background-color: #ddd;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.main input[type=submit] {
+  margin-top: 40px;
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+  font-weight: 600;
+  height: 40px;
+  width: 305px;
+}
+.main input[type=submit]:hover {
+  color: rgb(20, 100, 78);
+  cursor: pointer;
+  background-color: rgb(10, 51, 40);
+}/*# sourceMappingURL=style.css.map */

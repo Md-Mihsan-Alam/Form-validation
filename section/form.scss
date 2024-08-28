@@ -1,0 +1,39 @@
+@import "variable.scss";
+body{
+    background-color: map-get($bgcolor, "body");
+}
+.main{
+    margin: map-get($margin, "main");
+    margin-top: map-get($margin, "mainT");
+    padding: map-get($padding, "main");
+    height: map-get($height, "main");
+    width: map-get($width, "main");
+    background-color: map-get($bgcolor, "main");
+    form{
+        color: map-get($color, "mainform");
+        font-size: map-get($fontsize, "mainform");
+    }
+    input{
+        margin-top: map-get($margin, "maininputT");
+        height: map-get($height, "maininput");
+        width: map-get($width, "maininput");
+        background-color: map-get($bgcolor, "maininput");
+        border: map-get($border, "maininput");
+        outline: map-get($outline, "maininput");
+        font-size: map-get($fontsize, "maininput");
+    }
+    input[type="submit"]{
+        margin-top: map-get($margin, "inputsubmitT");
+        font-size: map-get($fontsize, "inputsubmit");
+        text-align: map-get($textalign, "inputsubmit");
+        background-color: map-get($bgcolor, "inputsubmit");
+        font-weight: map-get($fontweight, "inputsubmit");
+        height: map-get($height, "maininputbtn" );
+        width: map-get($width, "maininputbtn" );
+    }
+    input[type="submit"]:hover{
+        color: map-get($color, "inputsubmithover");
+        cursor:pointer;
+        background-color: map-get($bgcolor, "inputsubmithover");
+    }
+}
